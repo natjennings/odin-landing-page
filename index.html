@@ -4,52 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Hero Text</title>
 </head>
 <body>
-    <div>
-        <h2>Header Logo</h2>
-        <p>header link one</p>
-        <p>header link two</p>
-        <p>header link three</p>
-    </div>
-    <div>
-        <div>
-            <h1>This website is awesome</h1>
-            <p>Subtext under the main text</p>
-            <button>Sign Up</button>
-        </div>
-        <div><img alt="this is img placeholder"></div>
-    </div>
-    <div>
-        <h2>Some random info</h2>
-        <div>
-            <img alt="image 1">
-            <p>subtext under image 1</p>
-        </div>
-        <div>
-            <img alt="image 2">
-            <p>subtext under image 2</p>
-        </div>
-        <div>
-            <img alt="image 3">
-            <p>subtext under image 3</p>
-        </div>
-        <div>
-            <img alt="image 4">
-            <p>subtext under image 4</p>
+    <!-- navbar and top section -->
+    <div class="s1">
+        <div class="wrapper">
+            <div class="navbar">
+                <div class="navheader">
+                    <p class="logo">Header Logo</p>
+                </div>
+                <div class="navlinks">
+                    <p class="subtext">header link one</p>
+                    <p class="subtext">header link two</p>
+                    <p class="subtext">header link three</p>
+                </div>
+            </div>
+        
+            <div class="top">
+                <div class="topleft">
+                    <p class="maintext">This website is awesome</p>
+                    <p class="subtext">Subtext under the main text</p>
+                    <button>Sign Up</button>
+                </div>
+                <div class="topright">
+                    <img alt="this is img placeholder" class="mainpic">
+                </div>
+            </div>
         </div>
     </div>
-    <div>
-        <em>this is a very inspiring quote</em>
-        <h3>-Thor, God of Thunder</h3>
+
+    <!-- rando info and 4 pics with subtext -->
+    <section class="s2">
+        <div class="randoinfo">
+            <p class="infoheader">Some random info</h2>
+        </div>
+        <div class="fourpics">
+            <div class="pic">
+                <img class="blueimg">
+                <p class="picsubtext">subtext under image 1</p>
+            </div>
+            <div class="pic">
+                <img class="blueimg">
+                <p class="picsubtext">subtext under image 2</p>
+            </div>
+            <div class="pic">
+                <img class="blueimg">
+                <p class="picsubtext">subtext under image 3</p>
+            </div>
+            <div class="pic">
+                <img class="blueimg">
+                <p class="picsubtext">subtext under image 4</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- quote with author -->
+    <div class="s3">
+        <div class="wrapper">
+            <div class="quote">
+                <p class="thorquote">this is a very inspiring quote. maybe it fills up space. Do people read this? IDK. It does look nice though.</p>
+                <p class="thor">-Thor, God of Thunder</p>
+            </div>
+        </div>
     </div>
-    <div>
-        <h3>Call to action because it is time!</h3>
-        <p>Sign up and click the button</p>
-        <button>Sign Up</button>
+    
+    <!-- call to action -->
+    <div class="s4">
+        <div class="wrapper">
+            <div class="cta">
+                <div class="ctawords">
+                    <p class="logo">Call to action because it is time!</p>
+                    <p class="subtext">Sign up and click the button</p>
+                </div>
+                <div class="ctabutton">
+                    <button class="bottom">Sign Up</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- footer with copyright -->
+    <div class="s5">
+        <div class="foot subtext">Copyright &copy The Odin Project Nat Edition 2025</div>
     </div>
-    <footer>Copyright circle c The Odin Project Nat Edition 2025</footer>
     
 </body>
 </html>
